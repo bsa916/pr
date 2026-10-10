@@ -1,0 +1,66 @@
+<html>
+
+<head>
+<script src="scripts/aframe.min.js"></script>
+</head>
+    
+    
+<body>
+    <a-scene id="a-scene">
+        <a-entity id="Factory 1" position="-1.7 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bFactory1.glb"></a-entity>
+        <a-entity id="Factory 2" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bFactory2.glb"></a-entity>
+        <a-entity id="Hospital 1" position="10 -2 -0.3" scale="0.12 0.12 0.12" rotation="0 180 0" gltf-model="models/bHospital1.glb"></a-entity>
+        <a-entity id="Hospital 2" position="8.75 -2 -0.22" scale="0.12 0.12 0.12" rotation="0 180 0" gltf-model="models/bHospital2.glb"></a-entity>
+        <a-entity id="Houses 1" position="-3 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bHouses1.glb"></a-entity>
+        <a-entity id="Houses 2" position="-2.5 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bHouses2.glb"></a-entity>
+        <a-entity id="Solar Battery 1" position="-1.65 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bLightpan1.glb"></a-entity>
+        <a-entity id="Solar Battery 2" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bLightpan2.glb"></a-entity>
+        <a-entity id="Minisub 1" position="-2.35 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bMinisub1.glb"></a-entity>
+        <a-entity id="Minisub 2" position="-1.5 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bMinisub2.glb"></a-entity>
+        <a-entity id="Substation" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bSubstation.glb"></a-entity>
+        <a-entity id="Vetro" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/bVetro.glb"></a-entity>
+        <a-entity id="Vetro lopast 1" position="-6.3 0.24 0" scale="0.12 0.12 0.12" gltf-model="models/lopast1.glb" animation="property: rotation; to: 360 0 0; loop: true; dur: 1000; easing: linear;"></a-entity>
+        <a-entity id="Vetro lopast 2" position="-6.3 0.24 3" scale="0.12 0.12 0.12" gltf-model="models/lopast2.glb" animation="property: rotation; to: 360 0 0; loop: true; dur: 1500; easing: linear;"></a-entity>
+        <a-entity id="Vetro lopast 3" position="-6.3 0.24 -3" scale="0.12 0.12 0.12" gltf-model="models/lopast3.glb" animation="property: rotation; to: 360 0 0; loop: true; dur: 700; easing: linear;"></a-entity>
+        <a-entity id="Gori" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/gori.glb"></a-entity>
+        <a-entity id="Lights" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/lights.glb"></a-entity>
+        <a-entity id="Road" position="-2.15 -2 0" scale="0.12 0.12 0.12" gltf-model="models/road.glb"></a-entity>
+        <a-entity id="Trava" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/trava.glb"></a-entity>
+        <a-entity id="Trees" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/trees.glb"></a-entity>
+        <a-entity id="Water" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/water.glb"></a-entity>
+        <a-entity id="Vetro Generator" position="9.661 -1.85 2" scale="0.12 0.12 0.12" gltf-model="models/bVetroGen.glb"></a-entity>
+        <a-entity id="Vetro Generator Lopast" position="9.661 -1.85 2" scale="0.12 0.12 0.12" gltf-model="models/bVetroGenLopast.glb" animation="property: rotation; to: 0 -360 0; loop: true; dur: 1000; easing: linear;"></a-entity>
+        <a-entity id="Стенд" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="models/stand.glb"></a-entity>
+        <a-entity id="Лавочка" position="7 -1.75 -2" scale="0.08 0.08 0.08" rotation="0 90 0" gltf-model="models/lavochka.glb"></a-entity>
+        <!-- <a-entity id="Винт Ветрогенератора 1" scale="0.12 0.12 0.12" position="-6.345 0.265 2.993" gltf-model="models/windTurbinePropeller.glb" animation="property: rotation; to: -360 0 0; loop: true; dur: 3000; easing: linear;"></a-entity> -->
+
+        <a-plane id="Solar Battery 1" material="color: #696969; opacity: 0.65;" position="-2.209 -1.662 1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Mini Substation 2" material="color: #696969; opacity: 0.65;" position="-0.535 -1.662 1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Hospital 2" material="color: #696969; opacity: 0.65;" position="-1.273 -1.662 -1.510" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Factory 2" material="color: #696969; opacity: 0.65;" position="10 -1.662 -1.649" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 1" material="color: #696969; opacity: 0.65;" position="2.295 -1.662 -1.649" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 2" material="color: #696969; opacity: 0.65;" position="3.8 -1.662 -1.649" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 3" material="color: #696969; opacity: 0.65;" position="5.2 -1.662 -1.649" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 4" material="color: #696969; opacity: 0.65;" position="2.95 -1.662  1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 5" material="color: #696969; opacity: 0.65;" position="4.45 -1.662  1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 6" material="color: #696969; opacity: 0.65;" position="5.85 -1.662  1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Factory 1" material="color: #696969; opacity: 0.65;" position="1 -1.662  1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Hospital 1" material="color: #696969; opacity: 0.65;" position="7.409 -1.662  1.166" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Solar Battery 2" material="color: #696969; opacity: 0.65;" position="12.5 -1.662 -1.554" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Wind Generator" material="color: #696969; opacity: 0.65;" position="9.661 -1.662 1.166" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Mini Substation 1" material="color: #696969; opacity: 0.65;" position="-2.718 -1.662 -1.510" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Substation " material="color: #696969; opacity: 0.65;" position="-3.18 -1.662 -0.28" rotation="0 90 0" scale="0.4 0.56 1"></a-plane>
+
+        <a-sky src="img/skybox.png" rotation="0 -130 0"></a-sky>
+
+        <a-camera id="rig" scale="0.5 0.5 0.5" position="-2.5 -1.45 0" fov="100" wasd-controls="acceleration: 10;" touch-movers></a-camera>
+    </a-scene>>
+    
+<!-- <script src="scripts/aframe-extras.min.js"></script> -->
+
+<script src="scripts/aframe-extras.min.js"></script>
+<script src="scripts/paho-mqtt.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+
+</html>

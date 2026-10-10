@@ -1,0 +1,97 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <a-scene id="a-scene">
+        <a-assets>
+            <img id="my-image" src="батарейка.jpg">
+            <video id="spider-man" autoplay loop="true" src="john-jonah-jameson-lol-sticker-op8zu1jh950i6ckq.gif"></video>
+        </a-assets>
+
+        <a-entity id="Стенд" position="0 -2 0" scale="0.12 0.12 0.12" gltf-model="stand.glb"></a-entity>
+        <a-entity id="Винт Ветрогенератора 1" scale="0.12 0.12 0.12" position="-6.345 0.265 2.993" gltf-model="windTurbinePropeller.glb" animation="property: rotation; to: -360 0 0; loop: true; dur: 3000; easing: linear;"></a-entity>
+        <a-entity id="Винт Ветрогенератора 2" scale="0.12 0.12 0.12" position="-6.343 0.276 0" rotation="-90 0 0" gltf-model="windTurbinePropeller.glb" animation="property: rotation; to: -450 0 0; loop: true; dur: 3000; easing: linear;"></a-entity>
+        <a-entity id="Винт Ветрогенератора 3" scale="0.12 0.12 0.12" position="-6.333 0.266 -3.007" rotation="-180 0 0" gltf-model="windTurbinePropeller.glb" animation="property: rotation; to: -540 0 0; loop: true; dur: 3000; easing: linear;"></a-entity>
+        <a-entity id="Винт Мини Ветрогенератора" scale="0.12 0.12 0.12" position="9.336 -1.207 1.985" gltf-model="windMiniTurbinePropeller.glb" animation="property: rotation; to: 0 -360 0; loop: true; dur: 1000; easing: linear;"></a-entity>
+
+        <a-plane id="Solar Battery" material="color: #696969; opacity: 0.65;" position="-2.209 -1.662 1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Mini Substation 2" material="color: #696969; opacity: 0.65;" position="-0.535 -1.662 1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Hospital 2" material="color: #696969; opacity: 0.65;" position="-1.273 -1.662 -1.510" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Factory 2" material="color: #696969; opacity: 0.65;" position="1.314 -1.662 1.195" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 1" material="color: #696969; opacity: 0.65;" position="2.295 -1.662 -1.649" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 2" material="color: #696969; opacity: 0.65;" position="3.132 -1.662 -1.649" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 3" material="color: #696969; opacity: 0.65;" position="3.988 -1.662 -1.649" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 4" material="color: #696969; opacity: 0.65;" position="2.842 -1.662  1.308" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 5" material="color: #696969; opacity: 0.65;" position="3.644 -1.662  1.308" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="MD 6" material="color: #696969; opacity: 0.65;" position="4.667 -1.662  1.308" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Factory 1" material="color: #696969; opacity: 0.65;" position="5.464 -1.662  -1.576" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+
+        <a-image src="#my-image" position="5.464 -1.7 -1.575" scale="0.4 0.4 0.4"></a-image>
+
+        <a-plane id="Hospital 1" material="color: #696969; opacity: 0.65;" position="8.409 -1.662  1.166" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Solar Battery 2" material="color: #696969; opacity: 0.65;" position="8.380 -1.662 -1.554" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <a-plane id="Wind Generator" material="color: #696969; opacity: 0.65;" position="9.661 -1.662 1.166" rotation="0 180 0" scale="0.4 0.56 1"></a-plane>
+
+        <a-plane id="Mini Substation 1" material="color: #696969; opacity: 0.65;" position="-2.718 -1.662 -1.510" rotation="0 0 0" scale="0.4 0.56 1"></a-plane>
+        <!-- <a-entity text="value: Hello World!; color: #ffffff; align: center;" id="t1__id" scale="1 1 1" position="-2.718 -1.464 -1.510" rotation="0 0 0"></a-entity>
+        <a-entity text="value: Hello World; color: #ffffff; align: center;" id="t2__id" scale="1 1 1" position="-2.718 -1.595 -1.510" rotation="0 0 0"></a-entity>
+        <a-entity text="value: Hello World; color: #ffffff; align: center;" id="t3__id" scale="1 1 1" position="-2.718 -1.674 -1.510" rotation="0 0 0"></a-entity>
+        <a-entity text="value: Hello World; color: #ffffff; align: center;" id="t4__id" scale="1 1 1" position="-2.718 -1.743 -1.510" rotation="0 0 0"></a-entity> -->
+
+        <a-sky src="qwantani_dusk_2_puresky_4k.png" rotation="0 -130 0"></a-sky>
+
+        <!-- <a-video src="john-jonah-jameson-lol-sticker-op8zu1jh950i6ckq.gif" autoplay loop="true"></a-video> -->
+        <a-video src="#spider-man" width="1" height="1" position="0 0 0"></a-video>
+
+        <a-camera scale="0.5 0.5 0.5" position="-2.5 -1.45 0" fov="100" wasd-controls="acceleration: 10;"></a-camera>
+        <!-- <a-entity text="value: HIIIIII; color: #ffffff; align: center;" id="example" scale="1 1 1" position="-2.718 -1.743 -1.510" rotation="1 2 3"></a-entity> -->
+    </a-scene>
+
+    <!-- <script>
+        // Создаем текст:
+        function createTagText({ text = '', color = '#ffffff', id = '', pos = { x: 0, y: 0, z: 0 }, rot = { x: 0, y: 0, z: 0 } }) {
+            return `<a-entity text="value: ${text}; color: ${color}; align: center;" id="${id}" scale="1 1 1" position="${pos.x} ${pos.y} ${pos.z}" rotation="${rot.x} ${rot.y} ${rot.z}"></a-entity>`
+        }
+
+        // Находим тег "a-scene":
+        const scene = document.getElementById('a-scene');
+
+        // Вставляем текст в "a-scene":
+        const text1 = createTagText({
+            text: '0/100 kWt',
+            color: '#ffffff',
+            id: 'text_kilowat',
+            pos: {
+                x: -2.718,
+                y: -1.743,
+                z: -1.510
+            },
+            rot: {
+                x: 0,
+                y: 0,
+                z: 0
+            }
+        });
+
+        scene.insertAdjacentHTML('beforeend', text1);
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        const textSceneKilowat = document.getElementById('text_kilowat');
+        setInterval(function () {
+            const randomKilowat = getRandomInt(0, 100);
+            textSceneKilowat.setAttribute('text', `value: ${randomKilowat}/100 kWt; color: #ffffff; align: center;`);
+        }, 1000);
+    </script> -->
+    <script src="scripts/aframe.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
